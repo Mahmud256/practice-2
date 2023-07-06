@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,36 +7,73 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(32, 32, 32);
+    background-color: #424141;
     padding: 20px;
     color: white;
     list-style: none;
 }
 
-.logo-photo{
+.logo-photo {
     width: 120px;
 }
 
-.menus{
+.menus {
     display: flex;
 }
 
-.item{
+.item {
     margin-right: 10px;
     padding-right: 7px;
     cursor: pointer;
 }
 
-.item:hover{
+.item:hover {
     color: blue;
 }
 
-.banner-img{
-    width: 300px;
-}
-
-.banner-container{
+.banner-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-image: url(./images/background.png), 
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    color: white;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-img {
+    width: 300px;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-title{
+    text-align: center;
 }
