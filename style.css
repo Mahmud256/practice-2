@@ -96,7 +96,7 @@
 .box {
     width: 200px;
     height: 280px;
-    box-shadow: #c7baba 4px 2px 105px;
+    box-shadow: gray 4px 2px 105px;
     color: white;
     text-align: center;
     border-radius: 10px;
@@ -105,17 +105,36 @@
 
 .box-btn {
     background-color: gray;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .box-title {
     padding: 10px;
 }
 
-.box-description {
-    padding: 0px;
+.icon {
+    width: 70px;
 }
 
-.icon {
-    width: 100px;
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 82px;
+    color: white;
+    list-style: none;
+    line-height: 25px;
 }
+
+.box2 {
+    width: 226px;
+    float: left;
+    color: white;
+    padding: 4px;
+}
+
+.logo-2 {
+    width: 170px;
+}
+
