@@ -88,8 +88,13 @@
     background-repeat: no-repeat;
 }
 
+.box-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .box {
-    width: 230px;
+    width: 200px;
     height: 280px;
     box-shadow: #c7baba 4px 2px 105px;
     color: white;
