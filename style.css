@@ -30,3 +30,13 @@
 .item:hover{
     color: blue;
 }
+
+.banner-img{
+    width: 300px;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
