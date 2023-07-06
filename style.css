@@ -116,15 +116,21 @@
     width: 70px;
 }
 
+footer{
+    background-color: black;
+}
+
 .footer-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
-    padding: 82px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 26px;
     color: white;
     list-style: none;
     line-height: 25px;
+    border-bottom: 1px solid gray;
 }
 
 .box2 {
@@ -137,4 +143,8 @@
 .logo-2 {
     width: 170px;
 }
-
+.copy{
+    color: white;
+    text-align: center;
+    padding: 26px 0;
+}
