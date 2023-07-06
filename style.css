@@ -123,7 +123,6 @@ footer{
 .footer-container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     width: 75%;
     margin: 0 auto;
     padding: 26px;
@@ -135,9 +134,17 @@ footer{
 
 .box2 {
     width: 226px;
-    float: left;
     color: white;
     padding: 4px;
+    margin: 50px 0;
+}
+
+.useful {
+    width: 143px;
+}
+
+.footer-title {
+    margin-bottom: 26px;
 }
 
 .logo-2 {
